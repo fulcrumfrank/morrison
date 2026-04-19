@@ -1,12 +1,12 @@
 import type { ModelInputs } from '@/lib/financial/types';
 
 export const conservativePreset: ModelInputs = {
-  totalCost: 375000,
-  constructionMonths: 10,
+  totalCost: 350000,
+  constructionMonths: 16,
   leaseUpMonths: 4,
-  loanToCost: 0.7,
+  loanToCost: 0.75,
   interestRateAnnual: 0.08,
-  monthlyRent: 2550,
+  monthlyRent: 2800,
   vacancyRate: 0.1,
   expenseRatio: 0.28,
   annualRentGrowth: 0.02,
