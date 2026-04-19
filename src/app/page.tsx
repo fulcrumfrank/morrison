@@ -5,11 +5,9 @@ import { homeContent } from '@/content/home';
 
 const cards = [
   { href: '/vision', title: 'Vision', description: 'Project goals, flexibility, rental strategy, and long-term value case.' },
-  { href: '/site', title: 'Site Context', description: 'Lot conditions, access, yard separation, and expressway mitigation strategy.' },
-  { href: '/design', title: 'Design', description: 'Program, layouts, massing, dimensions, and future renderings.' },
-  { href: '/financial-model', title: 'Financial Model', description: 'Interactive pro forma with assumptions, charts, granularity controls, and CSV export.' },
-  { href: '/process', title: 'Process', description: 'Execution path, team strategy, permitting, and milestones.' },
-  { href: '/documents', title: 'Documents', description: 'A central place for project artifacts, decks, diagrams, and downloadable files.' },
+  { href: '/plan', title: 'Plan', description: 'Roadmap, phases, and project decision structure.' },
+  { href: '/plan/financial-model', title: 'Financial Model', description: 'Interactive pro forma with assumptions, charts, granularity controls, and CSV export.' },
+  { href: '/plan/phases', title: 'Phases', description: 'Planning, design, construction, and operation placeholders.' },
 ];
 
 export default function HomePage() {
