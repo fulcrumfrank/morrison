@@ -4,6 +4,7 @@ export type MilestoneStatus = 'not_started' | 'in_progress' | 'complete' | 'bloc
 
 export interface Milestone {
   id: string;
+  orderIndex: number;
   title: string;
   status: MilestoneStatus;
   notes?: string;
