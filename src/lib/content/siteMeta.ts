@@ -6,10 +6,6 @@ export const siteMeta = {
   nav: [
     { href: '/', label: 'Home' },
     { href: '/vision', label: 'Vision' },
-    { href: '/site', label: 'Site' },
-    { href: '/design', label: 'Design' },
-    { href: '/financial-model', label: 'Financial Model' },
-    { href: '/process', label: 'Process' },
-    { href: '/documents', label: 'Documents' },
+    { href: '/plan', label: 'Plan' },
   ],
 };
